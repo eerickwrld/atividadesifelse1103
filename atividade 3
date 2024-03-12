@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class atv01{
+    public static void main(String [] args){
+    Scanner scanner = new Scanner(System.in);
+    
+    String userreal = "erick";
+    String senhareaal = "senha000";
+    
+    
+    System.out.println("digite o nome de usuario: ");
+    String userdigitado = scanner.nextLine();
+    System.out.println("Digite a senha: ");
+    String senhadigitada = scanner.nextLine();
+        if(userdigitado.equals(userreal) && senhadigitada.equals(senhareaal)){
+        System.out.println("login bem sucedido!");
+    } else{ System.out.println(" usuario ou senha incorreto!");
+    }
+    scanner.close();
+    }
+}
