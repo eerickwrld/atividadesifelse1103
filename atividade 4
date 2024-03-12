@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class atv01{
+    public static void main(String [] args){
+    Scanner scanner = new Scanner(System.in);
+    int numero1 = 0;
+    int numero2 = 0;
+    
+    System.out.println("Digite o seu primeiro numero:");
+    numero1 = scanner.nextInt();
+    System.out.println("Digite o segundo numero");
+    numero2 = scanner.nextInt();
+    
+    if( numero1 > numero2){
+        System.out.println("O maior numero eh " + numero1 + " // o numero menor eh " + numero2);
+    }else {
+        System.out.println("O numero maior eh " + numero2 + " // O numero menor eh " + numero1 );
+    }
+    scanner.close();
+    }
+}
